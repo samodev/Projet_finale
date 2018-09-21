@@ -1,0 +1,42 @@
+
+  subscription_id = "483e3fb6-7be5-4715-b41c-f1f8f7d2dd2a"
+  client_id       = "e3ba3d8e-c9d2-48ce-bdb2-e655da0873c4"
+  client_secret   = "264d6bd5-b0d5-483f-ac27-181d124428a4"
+  tenant_id       = "e5af66ec-c0ee-41b6-bc79-e7470d8a1d16"
+  ssh_keys_data   = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCqu5EaKgdudSBeRB+gA5+suSH/sR4txx94UfOWmWVwJIsvLLX4T+cJurlgCdfZO3AJTZ2BijT9z6gPxB5sbsgiz2ngo3j5bJWyjSVqc8euDd0jWtN96UP3iGLZi8xlVjKU6/yKzGnrnN+WS+fxOe2Wy9QGFYvvo+v9TDIlm73uUHC4e4EzEDyNjKsoP/lQPZ1jI0Wq++1xbA8yohb5yQJE8flE0Q5f5zAXuD4pdYLvveuKD2cANQbpE0skFwkzQi4vU8el1QsULnQ/qVT1ZcEDWKkaBhPTVbre27MCLnO1a4SlV3dj8PUrJYgJZG9qWgC01mirFoJkNPyZ/p/DN7DNlWGeFBwCIzClrVx67XRUrKLcrY29J5cCiPDYCv3THh2CVCTtRALiI7Bd5YZM2WzFiOkdjpIMDY+VyQqcdO8M6UF2/kR4Y6kTiw5lW84RbLBINgXRVOD9IXhcMCNs3L5EPKym5x/ROH2XUbgtOpMlrk1ISTQ3uPutGnOesl3yB0lC1Mr+WZOE1s6zbp7CYVdoiVJHLFp7aP17WJ9PlAr+6oSw1BZtQCNIonOQF06D9vxva57nKvkCkXhRwl3x0Pfav9IateE6oAvIU60Ak7ViC7O5XRYCen8T4U+YqcZZWs4fUel8Y+WPLK7YKw0dnfZBIGVX+WTIcVE9KIEwPYWo9Q== your_email@example.com"
+  ssh_keys_path   = "/home/stage/.ssh/authorized_keys"
+
+  nom_resource= "RG_Formation"
+  network_name= "myVnet"
+  subnet= "mySubnet"
+  publicIP= "myPublicIP1"
+  NetworkSecurityGroup= "myNetworkSecurityGroup1"
+  NetworkInterface= "myNIC1"
+  NicConfiguration= "myNicConfiguration"
+  name_virtual_machine= "myVM1"
+  security_rule= "SSH"
+  security_rule2= "HTTP"
+  storage_disk = "myOsDisk1"
+  location_world= "eastus"
+  environment_name= "Terraform Demo"
+  public_ip_address_allocation_name = "static"
+  address_space_number =  "10.0.0.0/16"
+  ip_addresses = ["10.0.2.5", "10.0.2.6", "10.0.2.7"]
+
+
+  ## CINQUIEME MACHINE
+
+  nom_resource5= "RG_Formation5"
+  location_world5= "West Europe"
+  environment_name5= "Terraform Demo5"
+  address_space_number5 =  "10.0.0.0/16"
+  network_name5= "myVnet5"
+  subnet5= "mySubnet5"
+  ip_addresses5= "10.0.2.8"
+  publicIP5= "myPublicIP5"
+  public_ip_address_allocation_name5 = "dynamic"
+  NetworkInterface5= "myNIC5"
+  NicConfiguration5= "myNicConfiguration5"
+  NetworkSecurityGroup5= "myNetworkSecurityGroup5"
+  name_virtual_machine5= "myVM5"
+  storage_disk5 = "myOsDisk5"
