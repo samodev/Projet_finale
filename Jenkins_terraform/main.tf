@@ -156,7 +156,7 @@ resource "azurerm_virtual_machine" "myterraformvm1" {
 }
 ####  CINQUIEME MACHINE
 
-resource "azurerm_resource_group" "myterraformgroup" {
+resource "azurerm_resource_group" "myterraformgroup5" {
     name     = "${var.nom_resource}"
     location = "${var.location_world5}"
     tags {
@@ -168,7 +168,7 @@ resource "azurerm_virtual_network" "myterraformnetwork5" {
     name                = "${var.network_name5}"
     address_space       = ["${var.address_space_number5}"]
     location            = "${var.location_world5}"
-    resource_group_name = "${azurerm_resource_group.myterraformgroup.name}"
+    resource_group_name = "${azurerm_resource_group.myterraformgroup5.name}"
 
     tags {
         environment = "${var.environment_name5}"
@@ -177,7 +177,7 @@ resource "azurerm_virtual_network" "myterraformnetwork5" {
 
 resource "azurerm_subnet" "myterraformsubnet5" {
     name = "${var.subnet5}"
-    resource_group_name = "${azurerm_resource_group.myterraformgroup.name}"
+    resource_group_name = "${azurerm_resource_group.myterraformgroup5.name}"
     virtual_network_name = "${azurerm_virtual_network.myterraformnetwork5.name}"
     address_prefix = "10.0.2.0/24"
 }
@@ -185,7 +185,7 @@ resource "azurerm_subnet" "myterraformsubnet5" {
 resource "azurerm_public_ip" "myterraformpublicip5" {
     name                         = "${var.publicIP5}"
     location                     = "${var.location_world5}"
-    resource_group_name          = "${azurerm_resource_group.myterraformgroup.name}"
+    resource_group_name          = "${azurerm_resource_group.myterraformgroup5.name}"
     public_ip_address_allocation = "${var.public_ip_address_allocation_name5}"
 
     tags {
@@ -196,7 +196,7 @@ resource "azurerm_public_ip" "myterraformpublicip5" {
 resource "azurerm_network_security_group" "myterraformnsg5" {
     name = "${var.NetworkSecurityGroup5}"
     location = "${var.location_world5}"
-    resource_group_name = "${azurerm_resource_group.myterraformgroup.name}"
+    resource_group_name = "${azurerm_resource_group.myterraformgroup5.name}"
 
 
     tags {
@@ -219,7 +219,7 @@ resource "azurerm_network_security_group" "myterraformnsg5" {
 resource "azurerm_network_interface" "myterraformnic5" {
     name                = "${var.NetworkInterface5}"
     location            = "${var.location_world5}"
-    resource_group_name = "${azurerm_resource_group.myterraformgroup.name}"
+    resource_group_name = "${azurerm_resource_group.myterraformgroup5.name}"
 
     ip_configuration {
         name                          = "${var.NicConfiguration5}"
@@ -239,7 +239,7 @@ resource "azurerm_network_interface" "myterraformnic5" {
 resource "random_id" "randomId5" {
     keepers = {
         # Generate a new ID only when a new resource group is defined
-        resource_group = "${azurerm_resource_group.myterraformgroup.name}"
+        resource_group = "${azurerm_resource_group.myterraformgroup5.name}"
     }
 
     byte_length = 8
@@ -250,7 +250,7 @@ resource "random_id" "randomId5" {
 
 resource "azurerm_storage_account" "mystorageaccount5" {
     name                = "diag${random_id.randomId5.hex}"
-    resource_group_name = "${azurerm_resource_group.myterraformgroup.name}"
+    resource_group_name = "${azurerm_resource_group.myterraformgroup5.name}"
     location            = "${var.location_world5}"
     account_replication_type = "LRS"
     account_tier = "Standard"
@@ -263,7 +263,7 @@ resource "azurerm_storage_account" "mystorageaccount5" {
 resource "azurerm_virtual_machine" "myterraformvm5" {
     name                  = "${var.name_virtual_machine5}"
     location              = "${var.location_world5}"
-    resource_group_name   = "${azurerm_resource_group.myterraformgroup.name}"
+    resource_group_name   = "${azurerm_resource_group.myterraformgroup5.name}"
     network_interface_ids = ["${azurerm_network_interface.myterraformnic5.id}"]
 
     vm_size               = "Standard_DS1_v2"
