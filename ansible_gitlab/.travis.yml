@@ -1,8 +1,8 @@
 ---
 
- services: docker
+services: docker
 
- env:
+env:
   - distro: centos7
     playbook: test.yml
   - distro: ubuntu1604
@@ -17,7 +17,7 @@
   - distro: ubuntu1604
     playbook: test-version.yml
 
- script:
+script:
   # Configure test script so we can run extra tests after playbook is run.
   - export container_id=$(date +%s)
   - export cleanup=false
@@ -36,5 +36,5 @@
     && (echo 'Status code 200 test: pass' && exit 0)
     || (echo 'Status code 200 test: fail' && exit 1)
 
- notifications:
+notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
