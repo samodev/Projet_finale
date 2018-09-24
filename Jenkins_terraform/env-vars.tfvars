@@ -7,7 +7,7 @@
   ssh_keys_path   = "/home/stage/.ssh/authorized_keys"
 
   nom_resource= "myResourceGroup"
-  network_name= "myVnet1"
+  network_name= "myVnet"
   subnet= "mySubnet"
   publicIP= "myPublicIP1"
   NetworkSecurityGroup= "myNetworkSecurityGroup1"
