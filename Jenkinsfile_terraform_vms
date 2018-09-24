@@ -11,11 +11,6 @@ pipeline {
 				 sh "git checkout master"
 			}
 		}
-		stage('change directory') {
-		    steps {
-                dir(Jenkins_terraform)
-		    }
-		}
 		stage('Terraform init') {
 			steps {
 				sh "terraform init"
