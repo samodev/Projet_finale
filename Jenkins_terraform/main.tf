@@ -109,7 +109,7 @@ resource "azurerm_storage_account" "mystorageaccount" {
 
 resource "azurerm_virtual_machine" "myterraformvm1" {
     count                 = "${length(var.ip_addresses)}"
-    name                  = "${var.name_virtual_machine}${count.index}"
+    name                  = "${var.name_virtual_machine}${count.index + 2}"
     location              = "${var.location_world}"
     resource_group_name   = "${azurerm_resource_group.myterraformgroup.name}"
     network_interface_ids = ["${element(azurerm_network_interface.myterraformnic1.*.id, count.index)}"]
@@ -132,7 +132,7 @@ resource "azurerm_virtual_machine" "myterraformvm1" {
     }
 
     os_profile {
-        computer_name  = "myvm1${count.index}"
+        computer_name  = "devops-app-0${count.index + 2}"
         admin_username = "stage"
     }
 
@@ -284,7 +284,7 @@ resource "azurerm_virtual_machine" "myterraformvm5" {
     }
 
     os_profile {
-        computer_name  = "myvm5"
+        computer_name  = "devops-app-05"
         admin_username = "stage"
     }
 
