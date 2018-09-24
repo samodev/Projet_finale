@@ -157,7 +157,7 @@ resource "azurerm_virtual_machine" "myterraformvm1" {
 ####  CINQUIEME MACHINE
 
 resource "azurerm_resource_group" "myterraformgroup5" {
-    name     = "${var.nom_resource}"
+    name     = "${var.nom_resource5}"
     location = "${var.location_world5}"
     tags {
         environment = "${var.environment_name5}"
