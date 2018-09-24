@@ -37,14 +37,14 @@
         <counts>
           <entry key="Jenkinsfile" value="43" />
           <entry key="Jenkinsfile_ansible_apache" value="2" />
-          <entry key="Jenkinsfile_terraform_vms" value="66" />
+          <entry key="Jenkinsfile_terraform_vms" value="67" />
           <entry key="tf" value="3" />
           <entry key="tfvars" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="111" />
+          <entry key="PLAIN_TEXT" value="112" />
           <entry key="Terraform" value="62" />
         </counts>
       </usages-collector>
@@ -154,7 +154,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537779921087" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537780016699" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
