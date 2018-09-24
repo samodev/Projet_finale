@@ -8,35 +8,35 @@ resource "azurerm_resource_group" "myterraformgroup" {
     }
 }
 
-resource "azurerm_virtual_network" "myterraformnetwork" {
-    name                = "${var.network_name}"
-    address_space       = ["${var.address_space_number}"]
-    location            = "${var.location_world}"
-    resource_group_name = "${azurerm_resource_group.myterraformgroup.name}"
-
-    tags {
-        environment = "${var.environment_name}"
-    }
-}
-
-resource "azurerm_subnet" "myterraformsubnet" {
-    name                 = "${var.subnet}"
-    resource_group_name  = "${azurerm_resource_group.myterraformgroup.name}"
-    virtual_network_name = "${azurerm_virtual_network.myterraformnetwork.name}"
-    address_prefix       = "10.0.2.0/24"
-}
-
-resource "azurerm_public_ip" "myterraformpublicip1" {
-    count                        = "${length(var.ip_addresses)}"
-    name                         = "${var.publicIP}${count.index}"
-    location                     = "${var.location_world}"
-    resource_group_name          = "${azurerm_resource_group.myterraformgroup.name}"
-    public_ip_address_allocation = "${var.public_ip_address_allocation_name}"
-
-    tags {
-        environment = "${var.environment_name}"
-    }
-}
+//resource "azurerm_virtual_network" "myterraformnetwork" {
+//    name                = "${var.network_name}"
+//    address_space       = ["${var.address_space_number}"]
+//    location            = "${var.location_world}"
+//    resource_group_name = "${azurerm_resource_group.myterraformgroup.name}"
+//
+//    tags {
+//        environment = "${var.environment_name}"
+//    }
+//}
+//
+//resource "azurerm_subnet" "myterraformsubnet" {
+//    name                 = "${var.subnet}"
+//    resource_group_name  = "${azurerm_resource_group.myterraformgroup.name}"
+//    virtual_network_name = "${azurerm_virtual_network.myterraformnetwork.name}"
+//    address_prefix       = "10.0.2.0/24"
+//}
+//
+//resource "azurerm_public_ip" "myterraformpublicip1" {
+//    count                        = "${length(var.ip_addresses)}"
+//    name                         = "${var.publicIP}${count.index}"
+//    location                     = "${var.location_world}"
+//    resource_group_name          = "${azurerm_resource_group.myterraformgroup.name}"
+//    public_ip_address_allocation = "${var.public_ip_address_allocation_name}"
+//
+//    tags {
+//        environment = "${var.environment_name}"
+//    }
+//}
 
 
 resource "azurerm_network_security_group" "myterraformnsg1" {
@@ -71,7 +71,7 @@ resource "azurerm_network_interface" "myterraformnic1" {
 
     ip_configuration {
         name                          = "${var.NicConfiguration}"
-        subnet_id                     = "${azurerm_subnet.myterraformsubnet.id}"
+        subnet_id                  = "mySubnet"
         private_ip_address_allocation = "static"
         private_ip_address            = "${element(var.ip_addresses, count.index)}"
         ##public_ip_address_id          = "${element(azurerm_public_ip.myterraformpublicip1.*.id, count.index)}"
