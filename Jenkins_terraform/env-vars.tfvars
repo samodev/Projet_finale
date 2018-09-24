@@ -12,7 +12,7 @@
   publicIP= "myPublicIP1"
   NetworkSecurityGroup= "myNetworkSecurityGroup1"
   NetworkInterface= "myNIC1"
-  NicConfiguration= "myNicConfiguration"
+  NicConfiguration= "myNicConfiguration1"
   name_virtual_machine= "myVM1"
   security_rule= "SSH"
   security_rule2= "HTTP"
