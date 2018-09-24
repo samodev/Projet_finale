@@ -3,13 +3,18 @@ pipeline {
 	stages {
 		stage('Git Clone') {
 			steps {
-				git ([url: "https://github.com/samodev/terraform_ansible_apache.git", branch: 'master' ])
+				git ([url: "https://github.com/samodev/Projet_finale.git", branch: 'master' ])
 			}
 		}
 		stage('checkout') {
 			steps { 
 				 sh "git checkout master"
 			}
+		}
+		stage('change directory') {
+		    steps {
+		        sh "cd terraform_ansible_apache"
+		    }
 		}
 		stage('ansible-playbook') {
 			steps {
