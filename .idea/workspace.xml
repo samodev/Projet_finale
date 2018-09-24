@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="236b4f67-19f0-4a78-873a-3a2bc45adaf9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Jenkins_terraform/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile_terraform_vms" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile_terraform_vms" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,14 +38,14 @@
         <counts>
           <entry key="Jenkinsfile" value="43" />
           <entry key="Jenkinsfile_ansible_apache" value="2" />
-          <entry key="Jenkinsfile_terraform_vms" value="43" />
+          <entry key="Jenkinsfile_terraform_vms" value="57" />
           <entry key="tf" value="3" />
           <entry key="tfvars" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="88" />
+          <entry key="PLAIN_TEXT" value="102" />
           <entry key="Terraform" value="62" />
         </counts>
       </usages-collector>
@@ -83,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile_terraform_vms">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="135">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -139,7 +140,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537778429336" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537778633031" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -176,10 +177,10 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32824427" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -232,8 +233,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile_terraform_vms">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="135">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>

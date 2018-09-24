@@ -12,7 +12,9 @@ pipeline {
 			}
 		}
 		stage('change directory') {
-	        dir(Jenkins_terraform)
+		    steps {
+                dir(Jenkins_terraform)
+		    }
 		}
 		stage('Terraform init') {
 			steps {
