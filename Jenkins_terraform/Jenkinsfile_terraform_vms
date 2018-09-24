@@ -8,12 +8,12 @@ pipeline {
 		}
 		stage('Terraform init') {
 			steps {
-				sh "terraform init"
+				sh "terraform init Jenkins_terraform/"
 			}
 		}
 		stage('terraform apply') {
 			steps {
-				sh "terraform apply -var-file=env-vars.tfvars -auto-approve"
+				sh "terraform apply Jenkins_terraform/ -var-file=env-vars.tfvars -auto-approve"
 			}
 		}	
 	}
