@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="236b4f67-19f0-4a78-873a-3a2bc45adaf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ansible_gitlab/installGitlab.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_gitlab/defaults/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_gitlab/handlers/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_gitlab/meta/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_gitlab/tasks/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_gitlab/templates/gitlab.rb.j2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_gitlab/tests/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_gitlab/tests/test-version.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_gitlab/tests/test.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_gitlab/tests/test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_gitlab/vars/Debian.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ansible_gitlab/vars/RedHat.yml" beforeDir="false" />
-    </list>
+    <list default="true" id="236b4f67-19f0-4a78-873a-3a2bc45adaf9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +39,7 @@
         <counts>
           <entry key="Jenkinsfile" value="43" />
           <entry key="Jenkinsfile_ansible_apache" value="2" />
-          <entry key="Jenkinsfile_ansible_gitlab" value="13" />
+          <entry key="Jenkinsfile_ansible_gitlab" value="26" />
           <entry key="Jenkinsfile_terraform_vms" value="67" />
           <entry key="tf" value="15" />
           <entry key="tfvars" value="59" />
@@ -62,7 +48,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="125" />
+          <entry key="PLAIN_TEXT" value="138" />
           <entry key="Terraform" value="74" />
           <entry key="YAML" value="37" />
         </counts>
@@ -72,11 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+              <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -90,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_gitlab/installGitlab.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -122,9 +108,9 @@
         <option value="$PROJECT_DIR$/Jenkins_terraform/Jenkinsfile_terraform_vms" />
         <option value="$PROJECT_DIR$/Jenkins_terraform/main.tf" />
         <option value="$PROJECT_DIR$/Jenkinsfile_ansible_apache" />
-        <option value="$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab" />
         <option value="$PROJECT_DIR$/ansible_gitlab/.travis.yml" />
         <option value="$PROJECT_DIR$/ansible_gitlab/installGitlab.yml" />
+        <option value="$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab" />
       </list>
     </option>
   </component>
@@ -167,7 +153,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537787928581" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537788077101" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -272,13 +258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ansible_gitlab/defaults/main.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-694" />
@@ -329,6 +308,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
         </state>
       </provider>
     </entry>

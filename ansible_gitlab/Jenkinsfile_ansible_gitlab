@@ -9,7 +9,7 @@ pipeline {
 
 		stage('ansible-playbook') {
 			steps {
-				sh "sudo su && ansible-playbook ansible_gitlab/.travis.yml"
+				sh "sudo su && ansible-playbook ansible_gitlab/tallGitlab.yml"
 			}
 		}
 	}
