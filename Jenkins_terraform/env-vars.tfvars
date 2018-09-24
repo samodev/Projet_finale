@@ -38,5 +38,5 @@
   NetworkInterface5= "myNIC5"
   NicConfiguration5= "myNicConfiguration5"
   NetworkSecurityGroup5= "myNetworkSecurityGroup5"
-  name_virtual_machine5= "evops-app-05"
+  name_virtual_machine5= "devops-app-05"
   storage_disk5 = "myOsDisk5"
