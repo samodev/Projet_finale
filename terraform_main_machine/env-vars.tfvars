@@ -62,7 +62,7 @@ storage_account_tiers = "Standard"
 #########################################################
 ############### VIRTUAL MACHINE #########################
 
-myterraformfirstvm_name = "myVM"
+myterraformfirstvm_name = "devops-app-01"
 myterraformsecondvm_name = "myVM2"
 virtual_machine_vm_size = "Standard_DS1_v2"
 

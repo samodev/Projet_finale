@@ -132,7 +132,7 @@ resource "azurerm_virtual_machine" "myterraformvm" {
 	}
 
 	os_profile {
-		computer_name = "myVM"
+		computer_name = "devops-app-01"
 		admin_username = "stage"
 	}
 
