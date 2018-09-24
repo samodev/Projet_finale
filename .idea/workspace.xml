@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="236b4f67-19f0-4a78-873a-3a2bc45adaf9" name="Default Changelist" comment="" />
+    <list default="true" id="236b4f67-19f0-4a78-873a-3a2bc45adaf9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Jenkins_terraform/env-vars.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins_terraform/env-vars.tfvars" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,15 +25,15 @@
           <entry key="Jenkinsfile_ansible_gitlab" value="1" />
           <entry key="Jenkinsfile_terraform_vms" value="2" />
           <entry key="j2" value="1" />
-          <entry key="tf" value="1" />
-          <entry key="tfvars" value="1" />
+          <entry key="tf" value="2" />
+          <entry key="tfvars" value="2" />
           <entry key="yml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Terraform" value="2" />
+          <entry key="Terraform" value="4" />
           <entry key="YAML" value="10" />
         </counts>
       </usages-collector>
@@ -42,14 +44,14 @@
           <entry key="Jenkinsfile_ansible_gitlab" value="29" />
           <entry key="Jenkinsfile_terraform_vms" value="67" />
           <entry key="tf" value="15" />
-          <entry key="tfvars" value="59" />
+          <entry key="tfvars" value="62" />
           <entry key="yml" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="141" />
-          <entry key="Terraform" value="74" />
+          <entry key="Terraform" value="77" />
           <entry key="YAML" value="37" />
         </counts>
       </usages-collector>
@@ -58,11 +60,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jenkins_terraform/main.tf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2385">
+              <caret line="159" column="37" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Jenkins_terraform/env-vars.tfvars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -102,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Jenkins_terraform/env-vars.tfvars" />
         <option value="$PROJECT_DIR$/terraform_ansible_apache/Jenkinsfile" />
         <option value="$PROJECT_DIR$/Jenkinsfile_terraform_vms" />
         <option value="$PROJECT_DIR$/Jenkins_terraform/Jenkinsfile_terraform_vms" />
@@ -111,6 +130,7 @@
         <option value="$PROJECT_DIR$/ansible_gitlab/.travis.yml" />
         <option value="$PROJECT_DIR$/ansible_gitlab/installGitlab.yml" />
         <option value="$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab" />
+        <option value="$PROJECT_DIR$/Jenkins_terraform/env-vars.tfvars" />
       </list>
     </option>
   </component>
@@ -136,7 +156,7 @@
             <path>
               <item name="final_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="final_project" type="462c0819:PsiDirectoryNode" />
-              <item name="ansible_gitlab" type="462c0819:PsiDirectoryNode" />
+              <item name="Jenkins_terraform" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="final_project" type="b2602c69:ProjectViewProjectNode" />
@@ -153,7 +173,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537788123517" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537788642619" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -183,7 +203,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="48" width="1004" height="666" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -234,20 +253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkins_terraform/env-vars.tfvars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkins_terraform/main.tf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="159" column="37" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -315,6 +320,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkins_terraform/main.tf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2385">
+          <caret line="159" column="37" selection-start-line="159" selection-start-column="37" selection-end-line="159" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkins_terraform/env-vars.tfvars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
         </state>
       </provider>
     </entry>

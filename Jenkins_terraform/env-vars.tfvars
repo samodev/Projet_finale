@@ -7,7 +7,7 @@
   ssh_keys_path   = "/home/stage/.ssh/authorized_keys"
 
   nom_resource= "myResourceGroup"
-  network_name= "myVnet1"
+  network_name= "myVnet"
   subnet= "mySubnet"
   publicIP= "myPublicIP1"
   NetworkSecurityGroup= "myNetworkSecurityGroup1"
@@ -30,7 +30,7 @@
   location_world5= "westindia"
   environment_name5= "Terraform Demo5"
   address_space_number5 =  "10.0.0.0/16"
-  network_name5= "myVnet1"
+  network_name5= "myVnet5"
   subnet5= "mySubnet5"
   ip_addresses5= "10.0.2.8"
   publicIP5= "myPublicIP5"
