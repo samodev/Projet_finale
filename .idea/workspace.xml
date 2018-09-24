@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="236b4f67-19f0-4a78-873a-3a2bc45adaf9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkins_terraform/env-vars.tfvars" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins_terraform/env-vars.tfvars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkins_terraform/terraform.tfstate" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins_terraform/terraform.tfstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkins_terraform/terraform.tfstate.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkins_terraform/terraform.tfstate.backup" afterDir="false" />
-    </list>
+    <list default="true" id="236b4f67-19f0-4a78-873a-3a2bc45adaf9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +80,7 @@
     <option name="width" value="1004" />
     <option name="height" value="666" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -112,7 +108,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537775920652" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537776039796" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
