@@ -39,7 +39,7 @@
         <counts>
           <entry key="Jenkinsfile" value="43" />
           <entry key="Jenkinsfile_ansible_apache" value="2" />
-          <entry key="Jenkinsfile_ansible_gitlab" value="26" />
+          <entry key="Jenkinsfile_ansible_gitlab" value="29" />
           <entry key="Jenkinsfile_terraform_vms" value="67" />
           <entry key="tf" value="15" />
           <entry key="tfvars" value="59" />
@@ -48,7 +48,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="138" />
+          <entry key="PLAIN_TEXT" value="141" />
           <entry key="Terraform" value="74" />
           <entry key="YAML" value="37" />
         </counts>
@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+              <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -153,7 +153,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537788077101" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537788123517" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -190,10 +190,10 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.29580152" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.29580152" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -314,7 +314,7 @@
     <entry file="file://$PROJECT_DIR$/ansible_gitlab/Jenkinsfile_ansible_gitlab">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
         </state>
       </provider>
     </entry>
